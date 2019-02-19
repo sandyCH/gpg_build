@@ -5,7 +5,7 @@ This also works on a Raspberry Pi with the Raspbian OS.
 1. Copy the .sh script to the Desktop
 2. Open a console
 3. cd ~/Desktop
-4. sh gpgxxxx.sh
+4. sh gpg2213.sh
 
 Test the compile
 
