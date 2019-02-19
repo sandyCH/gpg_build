@@ -37,14 +37,14 @@ sec   rsa4096 2017-07-17 [SCEA]
 uid           [ultimate] coalesce (ssh pw: raspberry) <pi@astronutj7ttnacx.onion>
 
 If you get a message that gpg-agent is not the latest version then:
-$ sudo mv /usr/bin/gpg-agent /usr/bin/gpg-agentX
-$ gpgconf --kill all
+
+1. $ sudo mv /usr/bin/gpg-agent /usr/bin/gpg-agentX
+2. $ gpgconf --kill all
 
 On a Raspberry Pi (or any 32 bit machine)
-$ sudo nano /etc/ld.so.conf
-as first line:
 
-include /etc/ld.so.conf.d/libc.conf
-
-save and then:
-$ sudo ldconfig
+1. $ sudo nano /etc/ld.so.conf
+2. as first line:
+3. include /etc/ld.so.conf.d/libc.conf
+4. save (ctrl-X) and then:
+5. $ sudo ldconfig
