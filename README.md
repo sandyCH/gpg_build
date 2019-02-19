@@ -26,6 +26,7 @@ Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
 Compression: Uncompressed, ZIP, ZLIB, BZIP2
 
 $ gpg -K
+
 /home/X/.gnupg/pubring.kbx
 --------------------------
 sec   rsa4096 2017-07-07 [SCEA] [expires: 2037-07-05]
